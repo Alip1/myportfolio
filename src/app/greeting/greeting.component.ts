@@ -43,10 +43,10 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 })
 export class GreetingComponent implements OnInit {
   greeting= {
-    username: "Mehwish Farooq",
-    title: "Hi, I'm Mehwish",
-    subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angularjs / Nodejs and some other cool libraries and frameworks.",
-    resumeLink: "https://drive.google.com/file/d/1cS7JjAYRfOY0cGN6lDhSlKcXGFn9d-01/view?usp=share_link"
+    username: "KI-Kompass Inklusiv",
+    title: "Das Projekt Kl-Kompass Inklusiv",
+    subTitle: "Das Projekt KI-Kompass Inklusiv verfolgt das Ziel, die Inklusion von Menschen mit Behinderung mithilfe von Künstlicher Intelligenz zu unterstützen. Bis 2027 werden KI-gestützte Assistenztechnologien recherchiert, Beratungs- und Schulungsangebote für Menschen mit Behinderung und wichtige Stakeholder entwickelt und angeboten und Praxislabore zur Entwicklung von inklusiver KI und deren Rahmenbedingungen durchgeführt. In allen barrierearmen Projektaktivitäten werden Menschen mit Behinderung eingebunden. Das Projekt schließt an das vorangegangene Projekt KI.ASSIST (2019-2022) an.",
+    //resumeLink: "https://drive.google.com/file/d/1cS7JjAYRfOY0cGN6lDhSlKcXGFn9d-01/view?usp=share_link"
   }
   constructor() { }
 

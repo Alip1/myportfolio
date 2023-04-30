@@ -29,18 +29,18 @@ export class ExperienceComponent implements OnInit {
         date: "Jul 2020 – Sep 2020",
         desc: "The 8- Week summer training focused on mobile application development using (React Native) and helped learn to work in a team.",
       },
-      // {
-      //   role: "Computer Science & Engineering",
-      //   company: "GLA University",
-      //   color: "#3f703f",
-      //   companylogo: "../../../assets/images/gla.png",
-      //   date: "Aug 2016 – Jul 2020",
-      //   desc: "I have completed my 4 year graduation degree in computer science with overall CGPA 8.6",
-      //   // descBullets: [
-      //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      //   // ]
-      // },
+      {
+        role: "Computer Science & Engineering",
+        company: "GLA University",
+        color: "#3f703f",
+        companylogo: "../../../assets/images/gla.png",
+        date: "Aug 2016 – Jul 2020",
+        desc: "I have completed my 4 year graduation degree in computer science with overall CGPA 8.6",
+        // descBullets: [
+        //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // ]
+      },
     ]
   };
 

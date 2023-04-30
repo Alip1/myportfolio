@@ -33,18 +33,19 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 45px;
   line-height: 1.1;
   margin-top: 1rem;
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 40px;
 }
 
 .greeting-image-div > img {
   max-width: 100%;
+  margin-top: 10%;
   height: auto;
 }
 .wave-emoji {
@@ -144,7 +145,8 @@ p {
   margin-top: 20px;
 }
 .greeting-text-p {
-  font-size: 22px;
+  font-size: 18px;
+  color: #212529;
   line-height: 40px;
   margin-top: 3rem;
   margin-bottom: 2rem;
