@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SocialMediaComponent implements OnInit {
   socialMediaLinks = {
 
-    github: "https://github.com/anees028",
-    linkedin: "https://www.linkedin.com/in/anees-rehman-21011998/",
-    gmail: "rehmananees028@gmail.com",
+    github: "https://github.com/Mehwish028",
+    linkedin: "https://www.linkedin.com/in/Mehwish-rehman-21011998/",
+    gmail: "rehmanMehwish028@gmail.com",
     instagram : "https://www.instagram.com/ozil7866/?hl=en",
     //facebook: "https://www.facebook.com/sharthak.agrawal"
   };

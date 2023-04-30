@@ -10,10 +10,10 @@ import gql from 'graphql-tag';
 export class ProjectsComponent implements OnInit {
   projects2 = [
     // {
-    //   link: "https://github.com/anees028/NBAapp",
+    //   link: "https://github.com/Mehwish028/NBAapp",
     // },
     // {
-    //   link: "https://github.com/anees028/Calculator",
+    //   link: "https://github.com/Mehwish028/Calculator",
     // }
   ];
   projects3 = [
@@ -21,10 +21,10 @@ export class ProjectsComponent implements OnInit {
       link: "https://github.com/sarthakgoenka/portfolio",
     },
     {
-      link: "https://github.com/anees028/NBAapp",
+      link: "https://github.com/Mehwish028/NBAapp",
     },
     {
-      link: "https://github.com/anees028/my_portfolio",
+      link: "https://github.com/Mehwish028/my_portfolio",
     },
     // {
     //   link: "https://natours-8aa57.web.app/",

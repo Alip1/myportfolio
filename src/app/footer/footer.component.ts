@@ -23,7 +23,7 @@ export class FooterComponent implements OnInit {
 
   state = 'normal';
   currentDate: Date = new Date();
-  name: string = 'Anees ur Rehman';
+  name: string = 'Mehwish Farooq';
   constructor() { }
 
   ngOnInit(): void {
