@@ -14,14 +14,17 @@ export class ExperienceComponent implements OnInit {
       {
         company: "Informationen zu KI-gestützten Assistenztechnologien",
         color: '#3781c2',
+        isHeading: false,
         },
       {
         company: "Wissenspool zum Thema KI & Inklusion",
         color: '#3781c2',
+        isHeading: false,
       },
       {
         company: "Projektaktivitäten (Praxislabore, Demonstrationsformate)",
         color: '#3781c2',
+        isHeading: false,
       },
     ]
   };

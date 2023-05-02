@@ -7,14 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
   skillsSection = {
-    title: "What I do💁‍♂️",
-    subTitle: "I AM A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-    skills: [
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-      "⚡ Creating application backend in Node, Express & NestJS",
-      "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-      "⚡ Integration of third party services such as Firebase/ Heroku/ AWS",
-      "⚡ Experience of working with Computer Vision and NLP projects"
+    title: "Das Projekt Team",
+    viewExperiences: true,
+    subTitle: "Das Projekt wird durch die folgenden Projektpartner umgesetzt, die bereits im Vorgängerprojekt KI.ASSIST erfolgreich zusammen gearbeitet haben.",
+    experience: [
+      {
+        heading: 'Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI)',
+        company: "Projektkoordination, Monitoring, Praxislabor KI-Forschung & Inklusion",
+        color: '#3781c2',
+        isHeading: true,
+      },
+      {
+        heading: 'Bundesverband Deutscher Berufsförderungswerke (BF BVW)',
+        company: "Praxislabore",
+        color: '#3781c2',
+        isHeading: true,
+      },
+      {
+        heading: 'Bundesarbeitsgemeintschaft der Berufsbildungswerke (BAG BBW)',
+        company: "Beratung & Schulung",
+        color: '#3781c2',
+        isHeading: true,
+      },
+      {
+        heading: 'Bundesarbeitsgemeintschaft der Werkstätten für behinderte Menschen (BAG WfbM)',
+        company: "Partizipation & Barrierefreiheit",
+        color: '#3781c2',
+        isHeading: true,
+      },
     ]
   };
   
