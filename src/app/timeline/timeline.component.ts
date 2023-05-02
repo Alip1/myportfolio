@@ -8,32 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class TimelineComponent implements OnInit {
   timeline = [
     {
-      heading: "Infosys",
-      duration: "current",
-      content: "Upcoming Full stack develover at Infosys!",
-      className: "direction-r"
-    },
-    {
-      heading: "B.Tech",
-      duration: "2016 - 2020",
-      content: "Successfully completed my B.tech in Computer science from GLA University, Mathura.",
-      className: "direction-l"
-    },
-    {
-      heading: "Intermediate",
-      duration: "2015-2016",
-      content: "Successfully completed my intermediate studies in 2016 from Gyan Deep Sr. Secondary Public School, Shikohabad.\n" +
-        "Major: PCM.",
-      className: "direction-r"
-    },
-    {
-      heading: "High School",
-      duration: "2013-2014",
-      content: "Successfully completed my high school studies in 2014 from Georgions Academy, Shikohabad.",
-      className: "direction-l"
+    Content : "Die Auftaktveranstaltung des Projekts KI-Kompass Inklusiv findet am 02. Juni 2023 im Kleisthaus in Berlin statt. Die Teilnehmenden erwartet ein spannendes Programm: Interessante Vorträge, konkrete Technologie-Demonstrationen, interaktive World Cafes zu den Aktivitäten des Projekts sowie eine abschließende Panel-Diskussion. Bei Interesse können Sie sich hier für die Veranstaltung anmelden" 
     }
+    ];
 
-    ]
   constructor() { }
 
   ngOnInit(): void {

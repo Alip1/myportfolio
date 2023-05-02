@@ -1,12 +1,11 @@
 .contact-div-main {
   display: block;
-  text-align: center;
-  // align-items: center;
+  text-align: center;  // align-items: center;
   // justify-content: center;
 }
 
 .subTitle {
-  color: rgb(134, 142, 150);
+  color:212529;
 }
 
 
@@ -17,7 +16,7 @@
 }
 
 .contact-title {
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 400;
   margin-bottom: 2rem;
 }
@@ -27,13 +26,13 @@
   margin-top: 20px;
   font-size: 40px;
   font-weight: 400;
-  color: #868e96;
+  color: #212529;
   text-decoration: none;
 }
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: black;
+  color:#980050;
   text-shadow: 2px 1px 2px #b5b5b5;
   transition: all 0.3s;
 }

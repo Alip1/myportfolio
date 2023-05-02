@@ -9,7 +9,7 @@ export class SkillsComponent implements OnInit {
   skillsSection = {
     title: "Das Projekt Team",
     viewExperiences: true,
-    subTitle: "Das Projekt wird durch die folgenden Projektpartner umgesetzt, die bereits im Vorgängerprojekt KI.ASSIST erfolgreich zusammen gearbeitet haben.",
+    subTitle: `Das Projekt wird durch die folgenden Projektpartner umgesetzt, die bereits im Vorgängerprojekt KI.ASSIST erfolgreich zusammen gearbeitet haben.`,
     experience: [
       {
         heading: 'Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI)',
