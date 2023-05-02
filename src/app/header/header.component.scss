@@ -11,6 +11,8 @@ p {
   max-width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
+  background-color: #ebebeb;
+  border-radius: 20px;
 }
 
 .header ul {
@@ -18,7 +20,7 @@ p {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #ebebeb;
 }
 .grey-color {
   color: #868e96;
@@ -34,7 +36,8 @@ p {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  border-radius: 20px;
+  background-color: #a8a8a8;
 }
 
 .header .logo {
@@ -46,16 +49,16 @@ p {
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Montserrat";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
-  color:  #55198b;
+  color:  #980050;
 
-  &:hover{
-    color: red;
-  }
+  // &:hover{
+  //   color: red;
+  // }
 }
 
 /* menu */
