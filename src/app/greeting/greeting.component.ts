@@ -45,8 +45,8 @@ export class GreetingComponent implements OnInit {
   greeting= {
     username: "KI-Kompass Inklusiv",
     title: "Das Projekt Kl-Kompass Inklusiv",
-    subTitle: "Das Projekt KI-Kompass Inklusiv verfolgt das Ziel, die Inklusion von Menschen mit Behinderung mithilfe von Künstlicher Intelligenz zu unterstützen. Bis 2027 werden KI-gestützte Assistenztechnologien recherchiert, Beratungs- und Schulungsangebote für Menschen mit Behinderung und wichtige Stakeholder entwickelt und angeboten und Praxislabore zur Entwicklung von inklusiver KI und deren Rahmenbedingungen durchgeführt. In allen barrierearmen Projektaktivitäten werden Menschen mit Behinderung eingebunden. Das Projekt schließt an das vorangegangene Projekt KI.ASSIST (2019-2022) an.",
-    
+    // subTitle: "",
+    subTitle2: "Das erwartet Sie in Zukunft auf unserer Webseite",
   }
   constructor() { }
 

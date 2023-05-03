@@ -1,8 +1,9 @@
 <div class="experience-card" wmAnimate="bumpIn" aos speed="normal">
   <div [ngStyle]="{background: experience.color}" [ngClass]="!experience.isHeading ? 'experience-banner' : 'experience-banner2'">
     <div class="experience-blurred_div"></div>
-    <div class="experience-div-company" *ngIf="!experience.isHeading">
-      <p class="experience-text-company">{{experience.company}}</p>
+    <div *ngIf="!experience.isHeading">
+      <h4 class="experience-text-company">{{experience.heading}}</h4>
+      <p class="experience-text-company" style="font-size: medium;">{{experience.company}}</p>
     </div>
     <div *ngIf="experience.isHeading">
       <h4 class="experience-text-company">{{experience.heading}}</h4>
