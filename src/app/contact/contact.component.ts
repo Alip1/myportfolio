@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
   public contactInfo = {
-    title: "Contact adress KI-Kompass Inklusiv",
+    title: "Nehme Sie Konkat mit uns auf",
     subtitle: "Wir freuen uns über Ihre Kontaktaufnahme zu unserem Projekt. Schreiben Sie uns eine E-Mail an rolf.feichtenbeiner@dfki.de",
     email_address: "rolf.feichtenbeiner@dfki.de"
   };

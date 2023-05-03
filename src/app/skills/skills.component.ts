@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
   skillsSection = {
-    title: "Das Projekt Team",
+    title: "Das Projektteam",
     viewExperiences: true,
     subTitle: `Das Projekt wird durch die folgenden Projektpartner umgesetzt, die bereits im Vorgängerprojekt KI.ASSIST erfolgreich zusammen gearbeitet haben.`,
     experience: [
