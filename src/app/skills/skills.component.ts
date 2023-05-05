@@ -14,25 +14,25 @@ export class SkillsComponent implements OnInit {
       {
         heading: 'Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI)',
         company: "Projektkoordination, Monitoring, Praxislabor KI-Forschung & Inklusion",
-        color: '#3781c2',
+        color: '#000073',
         isHeading: true,
       },
       {
         heading: 'Bundesverband Deutscher Berufsförderungswerke (BF BVW)',
         company: "Praxislabore",
-        color: '#3781c2',
+        color: '#000073',
         isHeading: true,
       },
       {
         heading: 'Bundesarbeitsgemeintschaft der Berufsbildungswerke (BAG BBW)',
         company: "Beratung & Schulung",
-        color: '#3781c2',
+        color: '#000073',
         isHeading: true,
       },
       {
         heading: 'Bundesarbeitsgemeintschaft der Werkstätten für behinderte Menschen (BAG WfbM)',
         company: "Partizipation & Barrierefreiheit",
-        color: '#3781c2',
+        color: '#000073',
         isHeading: true,
       },
     ]
